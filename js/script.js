@@ -246,7 +246,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             const request = new XMLHttpRequest();
             request.open('POST','server.php');
-            request.setRequestHeader('Content-type','application/json');
+            request.setRequestHeader('Content-type','application/json; charset=utf-8');
 //когда мы используем XMLHttpRequest + FormData заголовок устанавливать не нужно!
 // он устанавливается автоматически
             const formData = new FormData(form);
