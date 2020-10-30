@@ -6,12 +6,25 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="653c12fd-eeb7-4bdd-a93d-386433efad14" name="Default Changelist" comment="first commit">
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/form/spinner.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Food_dist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,85 +35,37 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IlluminatedCloudWorkspaceSettings">
-    <option name="projectWorkspaceSettings">
-      <ProjectWorkspaceSettings>
-        <option name="anonymousApexSettings">
-          <AnonymousApexSettings>
-            <option name="savedDocuments">
-              <list>
-                <AnonymousApexSavedDocument>
-                  <option name="name" value="Anonymous Apex 1" />
-                </AnonymousApexSavedDocument>
-              </list>
-            </option>
-          </AnonymousApexSettings>
-        </option>
-      </ProjectWorkspaceSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1isYhvbzQjmAwopT2bXj95XOik4" />
+  <component name="ProjectId" id="1jbaGMXWLgfNeKvp9W17Tz44AyF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/1.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.1.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="653c12fd-eeb7-4bdd-a93d-386433efad14" name="Default Changelist" comment="" />
-      <created>1602697889135</created>
+      <changelist id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="" />
+      <created>1604075150335</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602697889135</updated>
-      <workItem from="1602697890257" duration="4508000" />
-      <workItem from="1602942889232" duration="2981000" />
-      <workItem from="1602948627392" duration="723000" />
-      <workItem from="1603035048391" duration="6040000" />
-      <workItem from="1603376340860" duration="2153000" />
-      <workItem from="1603658972555" duration="5725000" />
-      <workItem from="1603907087956" duration="4460000" />
-      <workItem from="1603912726986" duration="4124000" />
-      <workItem from="1603918468706" duration="222000" />
-      <workItem from="1603918806976" duration="117000" />
-      <workItem from="1604010439445" duration="304000" />
+      <updated>1604075150335</updated>
+      <workItem from="1604075152627" duration="38000" />
+      <workItem from="1604075481614" duration="438000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1603918853835</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1603918853835</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,36 +81,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="632" height="179" key="GridCell.Tab.0.bottom" timestamp="1603668263973">
-      <screen x="0" y="23" width="1280" height="721" />
-    </state>
-    <state width="632" height="179" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1603668263973" />
-    <state width="632" height="179" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1603666359219" />
-    <state width="632" height="179" key="GridCell.Tab.0.center" timestamp="1603668263972">
-      <screen x="0" y="23" width="1280" height="721" />
-    </state>
-    <state width="632" height="179" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1603668263972" />
-    <state width="632" height="179" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1603666359218" />
-    <state width="632" height="179" key="GridCell.Tab.0.left" timestamp="1603668263972">
-      <screen x="0" y="23" width="1280" height="721" />
-    </state>
-    <state width="632" height="179" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1603668263972" />
-    <state width="632" height="179" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1603666359217" />
-    <state width="632" height="179" key="GridCell.Tab.0.right" timestamp="1603668263973">
-      <screen x="0" y="23" width="1280" height="721" />
-    </state>
-    <state width="632" height="179" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1603668263973" />
-    <state width="632" height="179" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1603666359219" />
-    <state x="291" y="121" key="Vcs.Push.Dialog.v2" timestamp="1603918918216">
-      <screen x="0" y="23" width="1280" height="716" />
-    </state>
-    <state x="291" y="121" key="Vcs.Push.Dialog.v2/0.23.1280.716@0.23.1280.716" timestamp="1603918918216" />
   </component>
 </project>

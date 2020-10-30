@@ -94,8 +94,7 @@ window.addEventListener('DOMContentLoaded', () => {
 //при использовании toggle добавляем show после modal в HTML
 
     const modalTrigger = document.querySelectorAll('[data-modal]'),
-          modal = document.querySelector('.modal'),
-          modalCloseBtn = document.querySelector('[data-close]');
+          modal = document.querySelector('.modal');
 
     function openModal() {
         modal.classList.add('show');
@@ -114,11 +113,10 @@ window.addEventListener('DOMContentLoaded', () => {
         modal.classList.remove('show');
         document.body.style.overflow = '';
     }
-    modalCloseBtn.addEventListener('click', closeModal);
 
     modal.addEventListener('click', (e) => {
-        if (e.target === modal) {
-//если кликает на зону за модальным окном = modal
+        if (e.target === modal || e.target.getAttribute('data-close') === '') {
+//если кликает на зону за модальным окном = modal или нажимает на крестик (data-close)
           closeModal();
         }
 // то модальное окно закрывается
@@ -132,7 +130,7 @@ window.addEventListener('DOMContentLoaded', () => {
 //если нажимают клавишу ESC, и при этом окно открыто, оно закрывается
 
 //модальное окно появляется через 5 сек:
-    const modalTimerId = setTimeout(openModal, 5000);
+    const modalTimerId = setTimeout(openModal, 50000);
 
 //открывать модальное окно, когда пользователь домотал страницу до конца:
     function showModalByScroll() {
@@ -223,7 +221,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const forms = document.querySelectorAll('form');
     const message = {
-        loading: 'loading...',
+        loading: 'img/form/spinner.svg',
         success: 'thank you, we will contact you',
         failure: 'something went wrong'
     };
@@ -237,44 +235,72 @@ window.addEventListener('DOMContentLoaded', () => {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
 //для предотвращения перезагрузки страницы при отправке формы
-            let statusMessage = document.createElement('div');
+            let statusMessage = document.createElement('img');
 //создание оповещения, которое должно выйти после отправки формы
-            statusMessage.classList.add('status');
-            statusMessage.textContent = message.loading;
-            form.appendChild(statusMessage);
+            statusMessage.src = message.loading;
+            statusMessage.style.cssText = `
+            display: block;
+            margin: 0 auto;
+            `;
+            form.insertAdjacentElement('afterend', statusMessage);
 //добавление оповещения в форму
 
             const request = new XMLHttpRequest();
-            request.open('POST','server.php');
-            request.setRequestHeader('Content-type','application/json; charset=utf-8');
+            request.open('POST', 'server.php');
+            request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
 //когда мы используем XMLHttpRequest + FormData заголовок устанавливать не нужно!
 // он устанавливается автоматически
             const formData = new FormData(form);
 
             const object = {};
-            formData.forEach(function (value,key){
+            formData.forEach(function (value, key) {
                 object[key] = value;
             });
 
             const json = JSON.stringify(object);
 
             request.send(json);
-//отправка данных из формы
+            //отправка данных из формы
             request.addEventListener('load', () => {
                 if (request.status === 200) {
-//если запрос(отправка данных) успешно прошел, то
+                    //если запрос(отправка данных) успешно прошел, то
                     console.log(request.response);
-                    statusMessage.textContent = message.success;
+                    showThanksModal(message.success);
+                    //показывается модальное окно с сообщением 'thank you, we will contact you',
+                    //через 4 сек оно будет закрываться, как задано в функции
                     form.reset();
-                    setTimeout(() => {
-                        statusMessage.remove();
-                    }, 2000);
+                    //сброс данных из формы
+                    statusMessage.remove();
+                    //удаление значка спиннера
                 } else {
-                    statusMessage.textContent = message.failure;
+                    showThanksModal(message.failure);
                 }
             });
         });
     }
+    function showThanksModal(message) {
+        const prevModalDialog = document.querySelector('.modal__dialog');
+        prevModalDialog.classList.add('hide');
+        //cкрываем модальное окно с формой
+        openModal();
+
+        const thanksModal = document.createElement('div');
+        thanksModal.classList.add('modal__dialog');
+        thanksModal.innerHTML = `
+            <div class="modal__content">
+                <div class="modal__close" data-close>&times;</div>
+                <div class="modal__title">${message}</div>
+            </div>`;
+
+    document.querySelector('.modal').append(thanksModal);
+    setTimeout(() => {
+        thanksModal.remove();
+        prevModalDialog.classList.add('show');
+        prevModalDialog.classList.remove('hide');
+        closeModal();
+    }, 4000)
+    }
+
 });
 
 // c помощью оператора rest добавили возможность добавлять
