@@ -248,11 +248,6 @@ window.addEventListener('DOMContentLoaded', () => {
             form.insertAdjacentElement('afterend', statusMessage);
 //добавление оповещения в форму
 
-            const request = new XMLHttpRequest();
-            request.open('POST', 'server.php');
-            request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
-//когда мы используем XMLHttpRequest + FormData заголовок устанавливать не нужно!
-// он устанавливается автоматически
             const formData = new FormData(form);
 
             const object = {};
@@ -260,25 +255,24 @@ window.addEventListener('DOMContentLoaded', () => {
                 object[key] = value;
             });
 
-            const json = JSON.stringify(object);
+            fetch('server.php',{
+                method: "POST",
+                headers: {
+                    'Content-type': 'application/json'
+                },
+                body: JSON.stringify(object)
+            }).then(data => data.text())
+              .then(data => {
+                console.log(data);
+                showThanksModal(message.success);
+                form.reset();
+                statusMessage.remove();
+            }).catch(() => {
+                showThanksModal(message.failure);
+            }).finally(() => {
+                form.reset();
+            })
 
-            request.send(json);
-            //отправка данных из формы
-            request.addEventListener('load', () => {
-                if (request.status === 200) {
-                    //если запрос(отправка данных) успешно прошел, то
-                    console.log(request.response);
-                    showThanksModal(message.success);
-                    //показывается модальное окно с сообщением 'thank you, we will contact you',
-                    //через 4 сек оно будет закрываться, как задано в функции
-                    form.reset();
-                    //сброс данных из формы
-                    statusMessage.remove();
-                    //удаление значка спиннера
-                } else {
-                    showThanksModal(message.failure);
-                }
-            });
         });
     }
     function showThanksModal(message) {

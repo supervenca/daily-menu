@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="добавлено thanksModal">
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="исправлена ошибка в файле php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <workItem from="1604075152627" duration="38000" />
       <workItem from="1604075481614" duration="666000" />
       <workItem from="1604080163369" duration="1049000" />
-      <workItem from="1604422306111" duration="1468000" />
+      <workItem from="1604422306111" duration="3431000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604076838795</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="исправлена ошибка в файле php">
+      <created>1604426562617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604426562617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,12 +105,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="thanksModal added" />
     <MESSAGE value="добавлено thanksModal" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлено thanksModal" />
+    <MESSAGE value="исправлена ошибка в файле php" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправлена ошибка в файле php" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="115" y="119" key="Vcs.Push.Dialog.v2" timestamp="1604076850013">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state x="115" y="118" key="Vcs.Push.Dialog.v2" timestamp="1604426600164">
+      <screen x="0" y="23" width="1280" height="715" />
     </state>
+    <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1604426600164" />
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1604076850013" />
   </component>
 </project>
