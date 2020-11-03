@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/form/spinner.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Food_dist.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="добавлено thanksModal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,8 +67,18 @@
       <option name="presentableId" value="Default" />
       <updated>1604075150335</updated>
       <workItem from="1604075152627" duration="38000" />
-      <workItem from="1604075481614" duration="438000" />
+      <workItem from="1604075481614" duration="666000" />
+      <workItem from="1604080163369" duration="1049000" />
+      <workItem from="1604422306111" duration="1468000" />
     </task>
+    <task id="LOCAL-00001" summary="добавлено thanksModal">
+      <created>1604076838795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604076838795</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +94,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="thanksModal added" />
+    <MESSAGE value="добавлено thanksModal" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлено thanksModal" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="115" y="119" key="Vcs.Push.Dialog.v2" timestamp="1604076850013">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1604076850013" />
   </component>
 </project>

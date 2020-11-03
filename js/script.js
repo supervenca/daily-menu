@@ -157,6 +157,9 @@ window.addEventListener('DOMContentLoaded', () => {
             this.transfer = 27; //курс валюты
             this.changeToUAH();
         }
+// c помощью оператора rest добавили возможность добавлять
+// не обозначенные заранее (как src,alt и т.д.) классы
+
 // метод - конвертер валют:
         changeToUAH() {
             this.price = this.price * this.transfer;
@@ -302,6 +305,3 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
 });
-
-// c помощью оператора rest добавили возможность добавлять
-// не обозначенные заранее (как src,alt и т.д.) классы
