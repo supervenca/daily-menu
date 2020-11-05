@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="исправлена ошибка в файле php">
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="поменяла XMLHttpRequest на Fetch">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
@@ -55,6 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +73,8 @@
       <workItem from="1604075152627" duration="38000" />
       <workItem from="1604075481614" duration="666000" />
       <workItem from="1604080163369" duration="1049000" />
-      <workItem from="1604422306111" duration="3431000" />
+      <workItem from="1604422306111" duration="5199000" />
+      <workItem from="1604530287766" duration="3380000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -84,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604426562617</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="поменяла XMLHttpRequest на Fetch">
+      <created>1604429130307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604429130307</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,13 +119,18 @@
     <MESSAGE value="thanksModal added" />
     <MESSAGE value="добавлено thanksModal" />
     <MESSAGE value="исправлена ошибка в файле php" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправлена ошибка в файле php" />
+    <MESSAGE value="поменяла XMLHttpRequest на Fetch" />
+    <option name="LAST_COMMIT_MESSAGE" value="поменяла XMLHttpRequest на Fetch" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="115" y="118" key="Vcs.Push.Dialog.v2" timestamp="1604426600164">
+    <state x="283" y="23" width="997" height="715" key="SettingsEditor" timestamp="1604531756987">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
-    <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1604426600164" />
+    <state x="283" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715@0.23.1280.715" timestamp="1604531756987" />
+    <state x="115" y="118" key="Vcs.Push.Dialog.v2" timestamp="1604429137380">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1604429137380" />
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1604076850013" />
   </component>
 </project>

@@ -239,7 +239,7 @@ window.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
 //для предотвращения перезагрузки страницы при отправке формы
             let statusMessage = document.createElement('img');
-//создание оповещения, которое должно выйти после отправки формы
+//создание оповещения, которое должно выйти после отправки формы - значок спиннера(при медленном интернете)
             statusMessage.src = message.loading;
             statusMessage.style.cssText = `
             display: block;
@@ -255,6 +255,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 object[key] = value;
             });
 
+//отправка запроса на сервер:
             fetch('server.php',{
                 method: "POST",
                 headers: {
@@ -265,8 +266,12 @@ window.addEventListener('DOMContentLoaded', () => {
               .then(data => {
                 console.log(data);
                 showThanksModal(message.success);
+//показывается модальное окно с сообщением 'thank you, we will contact you'
+//через 4 сек оно будет закрываться, как задано в функции
                 form.reset();
+//сброс данных из формы
                 statusMessage.remove();
+//удаление значка спиннера(видим только при медленном интернете)
             }).catch(() => {
                 showThanksModal(message.failure);
             }).finally(() => {
@@ -278,7 +283,7 @@ window.addEventListener('DOMContentLoaded', () => {
     function showThanksModal(message) {
         const prevModalDialog = document.querySelector('.modal__dialog');
         prevModalDialog.classList.add('hide');
-        //cкрываем модальное окно с формой
+//cкрываем модальное окно с формой
         openModal();
 
         const thanksModal = document.createElement('div');
@@ -297,5 +302,9 @@ window.addEventListener('DOMContentLoaded', () => {
         closeModal();
     }, 4000)
     }
+
+    fetch('http://localhost:3000/menu')
+        .then(data => data.json())
+        .then(res => console.log(res));
 
 });
