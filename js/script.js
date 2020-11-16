@@ -190,12 +190,12 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    getResourse('http://localhost:3000/menu')
+ /*   getResourse('http://localhost:3000/menu')
         .then(data => {
             data.forEach(({img,altimg,title,descr,price}) => {
                 new MenuCard(img,altimg,title,descr,price, ".menu .container").render();
             });
-        });
+        });*/
 
 //получаем данные с сервера (data) в виде массива (состоящего из объектов),
 //перебираем элементы массива (объекты)
@@ -228,7 +228,7 @@ window.addEventListener('DOMContentLoaded', () => {
               }
               */
 
-/*способ с подключением библиотеки axios:
+//способ с подключением библиотеки axios:
 
     axios.get('http://localhost:3000/menu')
         .then(data => {
@@ -237,7 +237,7 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-     */
+
 
     // FORMS
 
@@ -348,5 +348,61 @@ window.addEventListener('DOMContentLoaded', () => {
    /* fetch('http://localhost:3000/menu')
         .then(data => data.json())
         .then(res => console.log(res)); */
+
+
+    // Slider
+
+    const slides = document.querySelectorAll('.offer__slide'),
+        prev = document.querySelector('.offer__slider-prev'),
+        next = document.querySelector('.offer__slider-next'),
+        total = document.querySelector('#total'),
+        current = document.querySelector('#current');
+    let slideIndex = 1;
+//индекс, определяющий текущее положение в слайдере
+    showSlides(slideIndex);
+
+    if (slides.length < 10) {
+        total.textContent = `0${slides.length}`
+    }else {
+        total.textContent = slides.length;
+    }
+//настройка отображения общего количества слайдов
+
+    function showSlides(n) {
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+        slides.forEach(item => item.style.display = 'none');
+        slides[slideIndex - 1].style.display = 'block';
+
+        if (slides.length < 10) {
+            current.textContent = `0${slideIndex}`
+        }else {
+            current.textContent = slideIndex;
+        }
+    }
+//в аргумент функции (n) передается slideIndex
+//ЕСЛИ мы перешли к последнему слайду, то переходим в начало
+//+такая же операция в обратную сторону
+//Перебираем все слайды, и скрываем их со страницы
+//Выбираем нужный слайд (-1 потому что мы начали отсчет с 1, а не с 0)
+//и делаем его видимым
+//настраиваем отображение порядкого номера текущего слайда
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+//эта функция будет менять порядковый номер slideIndex при перелистывании
+
+    prev.addEventListener('click', () => {
+        plusSlides(-1);
+    });
+    next.addEventListener('click', () => {
+        plusSlides(1);
+    });
 
 });

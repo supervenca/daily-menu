@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="добавлено: gitignore, json-server">
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="async/await">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -86,7 +86,9 @@
       <workItem from="1604530287766" duration="3585000" />
       <workItem from="1604942287228" duration="8155000" />
       <workItem from="1605298638532" duration="9184000" />
-      <workItem from="1605443634543" duration="1362000" />
+      <workItem from="1605443634543" duration="1692000" />
+      <workItem from="1605535208955" duration="1137000" />
+      <workItem from="1605550656045" duration="2899000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604534956793</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="async/await">
+      <created>1605445292667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605445292667</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,19 +149,21 @@
     <MESSAGE value="исправлена ошибка в файле php" />
     <MESSAGE value="поменяла XMLHttpRequest на Fetch" />
     <MESSAGE value="добавлено: gitignore, json-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлено: gitignore, json-server" />
+    <MESSAGE value="async/await" />
+    <option name="LAST_COMMIT_MESSAGE" value="async/await" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="23" width="997" height="715" key="SettingsEditor" timestamp="1604531756987">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="283" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715@0.23.1280.715" timestamp="1604531756987" />
-    <state x="115" y="118" key="Vcs.Push.Dialog.v2" timestamp="1604534970371">
-      <screen x="0" y="23" width="1280" height="713" />
+    <state x="115" y="119" key="Vcs.Push.Dialog.v2" timestamp="1605445312608">
+      <screen x="0" y="25" width="1280" height="705" />
     </state>
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1604534970371" />
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1604429137380" />
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1604076850013" />
+    <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.25.1280.705@0.25.1280.705" timestamp="1605445312608" />
     <state x="344" y="23" width="851" height="701" key="dock-window-1" timestamp="1605371559176">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
