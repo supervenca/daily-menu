@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="async/await">
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="Slider var.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
@@ -88,7 +87,8 @@
       <workItem from="1605298638532" duration="9184000" />
       <workItem from="1605443634543" duration="1692000" />
       <workItem from="1605535208955" duration="1137000" />
-      <workItem from="1605550656045" duration="2899000" />
+      <workItem from="1605550656045" duration="5908000" />
+      <workItem from="1605643514475" duration="3719000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605445292667</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Slider var.1">
+      <created>1605553760034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605553760034</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,26 +157,34 @@
     <MESSAGE value="поменяла XMLHttpRequest на Fetch" />
     <MESSAGE value="добавлено: gitignore, json-server" />
     <MESSAGE value="async/await" />
-    <option name="LAST_COMMIT_MESSAGE" value="async/await" />
+    <MESSAGE value="Slider var.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider var.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="23" width="997" height="715" key="SettingsEditor" timestamp="1604531756987">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="283" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715@0.23.1280.715" timestamp="1604531756987" />
-    <state x="115" y="119" key="Vcs.Push.Dialog.v2" timestamp="1605445312608">
-      <screen x="0" y="25" width="1280" height="705" />
+    <state x="115" y="120" key="Vcs.Push.Dialog.v2" timestamp="1605553769264">
+      <screen x="0" y="25" width="1280" height="709" />
     </state>
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1604534970371" />
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1604429137380" />
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1604076850013" />
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.25.1280.705@0.25.1280.705" timestamp="1605445312608" />
-    <state x="344" y="23" width="851" height="701" key="dock-window-1" timestamp="1605371559176">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state x="115" y="120" key="Vcs.Push.Dialog.v2/0.25.1280.709@0.25.1280.709" timestamp="1605553769264" />
+    <state x="265" y="43" width="744" height="686" key="dock-window-1" timestamp="1605564980847">
+      <screen x="0" y="25" width="1280" height="715" />
     </state>
     <state x="293" y="23" width="851" height="701" key="dock-window-1/0.23.1280.723@0.23.1280.723" timestamp="1605365446514" />
     <state x="344" y="23" width="851" height="701" key="dock-window-1/0.23.1280.724@0.23.1280.724" timestamp="1605371559176" />
     <state x="293" y="23" width="851" height="701" key="dock-window-1/0.23.1280.726@0.23.1280.726" timestamp="1605365750217" />
+    <state x="265" y="43" width="744" height="686" key="dock-window-1/0.25.1280.713@0.25.1280.713" timestamp="1605554488299" />
+    <state x="265" y="43" width="744" height="686" key="dock-window-1/0.25.1280.715@0.25.1280.715" timestamp="1605564980847" />
+    <state x="265" y="43" width="744" height="686" key="dock-window-1/0.25.1280.716@0.25.1280.716" timestamp="1605561181997" />
+    <state x="265" y="43" width="744" height="686" key="dock-window-1/0.25.1280.718@0.25.1280.718" timestamp="1605560572380" />
+    <state x="265" y="43" width="744" height="686" key="dock-window-1/0.25.1280.719@0.25.1280.719" timestamp="1605558900004" />
+    <state x="265" y="43" width="744" height="686" key="dock-window-1/0.25.1280.720@0.25.1280.720" timestamp="1605559908567" />
     <state x="451" y="23" width="604" height="721" key="find.popup" timestamp="1605299315200">
       <screen x="0" y="23" width="1280" height="721" />
     </state>
