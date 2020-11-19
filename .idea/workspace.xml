@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="Slider var.1">
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="Slider var.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +90,7 @@
       <workItem from="1605535208955" duration="1137000" />
       <workItem from="1605550656045" duration="5908000" />
       <workItem from="1605643514475" duration="3719000" />
+      <workItem from="1605702355670" duration="3893000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -132,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605553760034</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Slider var.2">
+      <created>1605702458059</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605702458060</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +167,8 @@
     <MESSAGE value="добавлено: gitignore, json-server" />
     <MESSAGE value="async/await" />
     <MESSAGE value="Slider var.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slider var.1" />
+    <MESSAGE value="Slider var.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider var.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="23" width="997" height="715" key="SettingsEditor" timestamp="1604531756987">
