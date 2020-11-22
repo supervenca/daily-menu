@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="Slider indicators">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="calculator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +88,7 @@
       <workItem from="1605702355670" duration="3893000" />
       <workItem from="1605815133022" duration="749000" />
       <workItem from="1605818181156" duration="1370000" />
-      <workItem from="1605888770688" duration="6052000" />
+      <workItem from="1605888770688" duration="6081000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -150,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605815231301</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="calculator">
+      <created>1605905182785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605905182785</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,15 +181,16 @@
     <MESSAGE value="Slider var.1" />
     <MESSAGE value="Slider var.2" />
     <MESSAGE value="Slider indicators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slider indicators" />
+    <MESSAGE value="calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="23" width="997" height="715" key="SettingsEditor" timestamp="1604531756987">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="283" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715@0.23.1280.715" timestamp="1604531756987" />
-    <state x="115" y="121" key="Vcs.Push.Dialog.v2" timestamp="1605815244919">
-      <screen x="0" y="25" width="1280" height="713" />
+    <state x="115" y="121" key="Vcs.Push.Dialog.v2" timestamp="1605905188286">
+      <screen x="0" y="25" width="1280" height="716" />
     </state>
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1604534970371" />
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1604429137380" />
@@ -194,6 +198,7 @@
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.25.1280.705@0.25.1280.705" timestamp="1605445312608" />
     <state x="115" y="120" key="Vcs.Push.Dialog.v2/0.25.1280.709@0.25.1280.709" timestamp="1605553769264" />
     <state x="115" y="121" key="Vcs.Push.Dialog.v2/0.25.1280.713@0.25.1280.713" timestamp="1605815244919" />
+    <state x="115" y="121" key="Vcs.Push.Dialog.v2/0.25.1280.716@0.25.1280.716" timestamp="1605905188286" />
     <state x="265" y="43" width="744" height="686" key="dock-window-1" timestamp="1605564980847">
       <screen x="0" y="25" width="1280" height="715" />
     </state>
