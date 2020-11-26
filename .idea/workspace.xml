@@ -19,7 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="calculator" />
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="calculator">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modules/calc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modules/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modules/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modules/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modules/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modules/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +63,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/FXSport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +76,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/Desktop/FXSport" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/../FXSport" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -89,6 +108,12 @@
       <workItem from="1605815133022" duration="749000" />
       <workItem from="1605818181156" duration="1370000" />
       <workItem from="1605888770688" duration="6081000" />
+      <workItem from="1606245326333" duration="133000" />
+      <workItem from="1606388294217" duration="1128000" />
+      <workItem from="1606389632391" duration="950000" />
+      <workItem from="1606416359061" duration="446000" />
+      <workItem from="1606417004806" duration="629000" />
+      <workItem from="1606417720964" duration="753000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -185,6 +210,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="calculator" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="653" height="173" key="GridCell.Tab.0.bottom" timestamp="1606245490168">
+      <screen x="0" y="25" width="1280" height="709" />
+    </state>
+    <state width="653" height="173" key="GridCell.Tab.0.bottom/0.25.1280.709@0.25.1280.709" timestamp="1606245490168" />
+    <state width="653" height="173" key="GridCell.Tab.0.center" timestamp="1606245490167">
+      <screen x="0" y="25" width="1280" height="709" />
+    </state>
+    <state width="653" height="173" key="GridCell.Tab.0.center/0.25.1280.709@0.25.1280.709" timestamp="1606245490167" />
+    <state width="653" height="173" key="GridCell.Tab.0.left" timestamp="1606245490167">
+      <screen x="0" y="25" width="1280" height="709" />
+    </state>
+    <state width="653" height="173" key="GridCell.Tab.0.left/0.25.1280.709@0.25.1280.709" timestamp="1606245490167" />
+    <state width="653" height="173" key="GridCell.Tab.0.right" timestamp="1606245490168">
+      <screen x="0" y="25" width="1280" height="709" />
+    </state>
+    <state width="653" height="173" key="GridCell.Tab.0.right/0.25.1280.709@0.25.1280.709" timestamp="1606245490168" />
     <state x="283" y="23" width="997" height="715" key="SettingsEditor" timestamp="1604531756987">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
