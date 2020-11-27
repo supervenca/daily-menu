@@ -1,52 +1,56 @@
-function modal() {
-    //modal window
-//в HTML перед элементом (кнопкой) прописать data-modal, data-close
-//при использовании toggle добавляем show после modal в HTML
+function openModal(modalSelector,modalTimerId) {
+    const modal = document.querySelector(modalSelector);
 
-    const modalTrigger = document.querySelectorAll('[data-modal]'),
-        modal = document.querySelector('.modal');
+    modal.classList.add('show');
+    modal.classList.remove('hide');
+    //modal.classList.toggle('show');
+    document.body.style.overflow = 'hidden';
+    console.log(modalTimerId);
 
-    function openModal() {
-        modal.classList.add('show');
-        modal.classList.remove('hide');
-        //modal.classList.toggle('show');
-        document.body.style.overflow = 'hidden';
+    if (modalTimerId) {
         clearInterval(modalTimerId);
-//если пользователь уже сам закрыл и открыл окно, оно открываться не будет
     }
-    modalTrigger.forEach(btn => {
-        btn.addEventListener('click', openModal);
-    });
 
-    function closeModal() {
-        modal.classList.add('hide');
-        modal.classList.remove('show');
-        document.body.style.overflow = '';
-    }
+}
+
+function closeModal(modalSelector) {
+    const modal = document.querySelector(modalSelector);
+
+    modal.classList.add('hide');
+    modal.classList.remove('show');
+    document.body.style.overflow = '';
+}
+
+function modal(triggerSelector, modalSelector, modalTimerId) {
+    //modal window
+
+    const modalTrigger = document.querySelectorAll(triggerSelector),
+        modal = document.querySelector(modalSelector);
+
+    modalTrigger.forEach(btn => {
+        btn.addEventListener('click', () => openModal(modalSelector, modalTimerId));
+    });
 
     modal.addEventListener('click', (e) => {
         if (e.target === modal || e.target.getAttribute('data-close') === '') {
 //если кликает на зону за модальным окном = modal или нажимает на крестик (data-close)
-            closeModal();
+            closeModal(modalSelector);
         }
 // то модальное окно закрывается
     });
 
     document.addEventListener('keydown', (e) => {
         if (e.code === "Escape" && modal.classList.contains('show')) {
-            closeModal();
+            closeModal(modalSelector);
         }
     });
 //если нажимают клавишу ESC, и при этом окно открыто, оно закрывается
-
-//модальное окно появляется через 5 сек:
-    const modalTimerId = setTimeout(openModal, 50000);
 
 //открывать модальное окно, когда пользователь домотал страницу до конца:
     function showModalByScroll() {
         if (window.pageYOffset + document.documentElement.clientHeight >=
             document.documentElement.scrollHeight) {
-            openModal();
+            openModal(modalSelector, modalTimerId);
             window.removeEventListener('scroll', showModalByScroll);
 //но как только он его увидел, больше не должно выскакивать
         }
@@ -54,4 +58,6 @@ function modal() {
     window.addEventListener('scroll', showModalByScroll);
 }
 
-module.exports = modal;
+export default modal;
+export {closeModal};
+export {openModal};

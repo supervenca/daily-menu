@@ -1,7 +1,10 @@
-function forms() {
+import {closeModal, openModal} from './modal';
+import {postData} from '../services/services';
+
+function forms(formSelector, modalTimerId) {
     // FORMS
 
-    const forms = document.querySelectorAll('form');
+    const forms = document.querySelectorAll(formSelector);
     const message = {
         loading: 'img/form/spinner.svg',
         success: 'thank you, we will contact you',
@@ -12,24 +15,6 @@ function forms() {
     forms.forEach(item => {
         bindPostData(item);
     });
-
-// функция postData настраивает запрос на сервер, фетчит (отправляет),
-// получает ответ и трансформирует его в json
-// async означает, что внутри функции будет асинхронный код
-// await ставится перед теми операциями, которых необходимо дождать
-// async и await - парные операторы, всегда идут вместе
-    const postData = async (url,data) => {
-        const res = await fetch(url, {
-//res - это промис
-            method: "POST",
-            headers: {
-                'Content-type': 'application/json'
-            },
-            body: data
-        });
-
-        return await res.json();
-    };
 
 //функция получения данных с сервера (GET)
 //получаем данные и с помощью них формируем карточки меню на сайте
@@ -86,7 +71,7 @@ function forms() {
         const prevModalDialog = document.querySelector('.modal__dialog');
         prevModalDialog.classList.add('hide');
 //cкрываем модальное окно с формой
-        openModal();
+        openModal('.modal', modalTimerId);
 
         const thanksModal = document.createElement('div');
         thanksModal.classList.add('modal__dialog');
@@ -101,7 +86,7 @@ function forms() {
             thanksModal.remove();
             prevModalDialog.classList.add('show');
             prevModalDialog.classList.remove('hide');
-            closeModal();
+            closeModal('.modal');
         }, 4000);
     }
 
@@ -111,4 +96,4 @@ function forms() {
 
 }
 
-module.exports = forms;
+export default forms;

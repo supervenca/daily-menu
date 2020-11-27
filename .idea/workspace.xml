@@ -19,24 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="calculator">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/calc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/cards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/forms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="webpack_modules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/calc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/timer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -114,6 +110,8 @@
       <workItem from="1606416359061" duration="446000" />
       <workItem from="1606417004806" duration="629000" />
       <workItem from="1606417720964" duration="753000" />
+      <workItem from="1606418826101" duration="149000" />
+      <workItem from="1606497701728" duration="5056000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605905182785</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="webpack_modules">
+      <created>1606418878133</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606418878133</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +212,8 @@
     <MESSAGE value="Slider var.2" />
     <MESSAGE value="Slider indicators" />
     <MESSAGE value="calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculator" />
+    <MESSAGE value="webpack_modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack_modules" />
   </component>
   <component name="WindowStateProjectService">
     <state width="653" height="173" key="GridCell.Tab.0.bottom" timestamp="1606245490168">
@@ -230,13 +236,14 @@
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="283" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715@0.23.1280.715" timestamp="1604531756987" />
-    <state x="115" y="121" key="Vcs.Push.Dialog.v2" timestamp="1605905188286">
-      <screen x="0" y="25" width="1280" height="716" />
+    <state x="115" y="120" key="Vcs.Push.Dialog.v2" timestamp="1606418889580">
+      <screen x="0" y="25" width="1280" height="708" />
     </state>
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1604534970371" />
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1604429137380" />
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1604076850013" />
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.25.1280.705@0.25.1280.705" timestamp="1605445312608" />
+    <state x="115" y="120" key="Vcs.Push.Dialog.v2/0.25.1280.708@0.25.1280.708" timestamp="1606418889580" />
     <state x="115" y="120" key="Vcs.Push.Dialog.v2/0.25.1280.709@0.25.1280.709" timestamp="1605553769264" />
     <state x="115" y="121" key="Vcs.Push.Dialog.v2/0.25.1280.713@0.25.1280.713" timestamp="1605815244919" />
     <state x="115" y="121" key="Vcs.Push.Dialog.v2/0.25.1280.716@0.25.1280.716" timestamp="1605905188286" />
