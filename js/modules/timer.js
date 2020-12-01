@@ -37,10 +37,18 @@ function timer (id, deadline) {
         function updateClock() {
             const t = getTimeRemaining(endtime);
 
-            days.innerHTML = getZero(t.days);
-            hours.innerHTML = getZero(t.hours);
-            minutes.innerHTML = getZero(t.minutes);
-            seconds.innerHTML = getZero(t.seconds);
+            function zeroing(timeValue, timeSelector) {
+                if (timeValue <= 0) {
+                    timeSelector.innerHTML = '00';
+                } else {
+                    timeSelector.innerHTML = getZero(timeValue);
+                }
+            }
+
+            zeroing(t.days, days);
+            zeroing(t.hours, hours);
+            zeroing(t.minutes, minutes);
+            zeroing(t.seconds, seconds);
 
             if (t.total <= 0) {
                 clearInterval(timeInterval);

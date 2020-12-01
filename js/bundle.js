@@ -436,53 +436,6 @@ function slider({container,slide,nextArrow,prevArrow,totalCounter, currentCounte
     let offset = 0;
 //индекс, определяющий текущее положение в слайдере
 
-    /* var 1
-    showSlides(slideIndex);
-
-    if (slides.length < 10) {
-        total.textContent = `0${slides.length}`
-    }else {
-        total.textContent = slides.length;
-    }
-//настройка отображения общего количества слайдов
-
-    function showSlides(n) {
-        if (n > slides.length) {
-            slideIndex = 1;
-        }
-        if (n < 1) {
-            slideIndex = slides.length;
-        }
-        slides.forEach(item => item.style.display = 'none');
-        slides[slideIndex - 1].style.display = 'block';
-
-        if (slides.length < 10) {
-            current.textContent = `0${slideIndex}`
-        }else {
-            current.textContent = slideIndex;
-        }
-    }
-//в аргумент функции (n) передается slideIndex
-//ЕСЛИ мы перешли к последнему слайду, то переходим в начало
-//+такая же операция в обратную сторону
-//Перебираем все слайды, и скрываем их со страницы
-//Выбираем нужный слайд (-1 потому что мы начали отсчет с 1, а не с 0)
-//и делаем его видимым
-//настраиваем отображение порядкого номера текущего слайда
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-//эта функция будет менять порядковый номер slideIndex при перелистывании
-
-    prev.addEventListener('click', () => {
-        plusSlides(-1);
-    });
-    next.addEventListener('click', () => {
-        plusSlides(1);
-    }); */
-
     //var 2
     if (slides.length < 10) {
         total.textContent = `0${slides.length}`;
@@ -749,10 +702,18 @@ function timer (id, deadline) {
         function updateClock() {
             const t = getTimeRemaining(endtime);
 
-            days.innerHTML = getZero(t.days);
-            hours.innerHTML = getZero(t.hours);
-            minutes.innerHTML = getZero(t.minutes);
-            seconds.innerHTML = getZero(t.seconds);
+            function zeroing(timeValue, timeSelector) {
+                if (timeValue <= 0) {
+                    timeSelector.innerHTML = '00';
+                } else {
+                    timeSelector.innerHTML = getZero(timeValue);
+                }
+            }
+
+            zeroing(t.days, days);
+            zeroing(t.hours, hours);
+            zeroing(t.minutes, minutes);
+            zeroing(t.seconds, seconds);
 
             if (t.total <= 0) {
                 clearInterval(timeInterval);
