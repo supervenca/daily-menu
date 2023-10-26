@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="timer improved, deleted unnecessary comments">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="b5861eca-d54c-4dbc-800d-24ada94fcfb4" name="Default Changelist" comment="compiled with babel" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +101,7 @@
       <workItem from="1606497701728" duration="5299000" />
       <workItem from="1606847035996" duration="2584000" />
       <workItem from="1606863851431" duration="1208000" />
-      <workItem from="1606912098799" duration="2157000" />
+      <workItem from="1606912098799" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="добавлено thanksModal">
       <created>1604076838795</created>
@@ -196,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606866231396</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="compiled with babel">
+      <created>1606915083654</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606915083654</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +226,8 @@
     <MESSAGE value="webpack_modules" />
     <MESSAGE value="ES6 modules" />
     <MESSAGE value="timer improved, deleted unnecessary comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="timer improved, deleted unnecessary comments" />
+    <MESSAGE value="compiled with babel" />
+    <option name="LAST_COMMIT_MESSAGE" value="compiled with babel" />
   </component>
   <component name="WindowStateProjectService">
     <state width="653" height="173" key="GridCell.Tab.0.bottom" timestamp="1606245490168">
@@ -251,7 +250,7 @@
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="283" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715@0.23.1280.715" timestamp="1604531756987" />
-    <state x="115" y="121" key="Vcs.Push.Dialog.v2" timestamp="1606866244281">
+    <state x="115" y="121" key="Vcs.Push.Dialog.v2" timestamp="1606915098223">
       <screen x="0" y="25" width="1280" height="713" />
     </state>
     <state x="115" y="118" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1604534970371" />
@@ -260,7 +259,7 @@
     <state x="115" y="119" key="Vcs.Push.Dialog.v2/0.25.1280.705@0.25.1280.705" timestamp="1605445312608" />
     <state x="115" y="120" key="Vcs.Push.Dialog.v2/0.25.1280.708@0.25.1280.708" timestamp="1606418889580" />
     <state x="115" y="120" key="Vcs.Push.Dialog.v2/0.25.1280.709@0.25.1280.709" timestamp="1606503100508" />
-    <state x="115" y="121" key="Vcs.Push.Dialog.v2/0.25.1280.713@0.25.1280.713" timestamp="1606866244281" />
+    <state x="115" y="121" key="Vcs.Push.Dialog.v2/0.25.1280.713@0.25.1280.713" timestamp="1606915098223" />
     <state x="115" y="121" key="Vcs.Push.Dialog.v2/0.25.1280.716@0.25.1280.716" timestamp="1605905188286" />
     <state x="13" y="25" width="974" height="687" key="dock-window-1" timestamp="1606865450674">
       <screen x="0" y="25" width="1280" height="713" />
