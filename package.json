@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supervenca/22.-Food_dist.git"
+    "url": "git+https://github.com/supervenca/daily-menu"
   },
   "author": "",
   "license": "ISC",
@@ -16,9 +16,9 @@
     "> 1%"
   ],
   "bugs": {
-    "url": "https://github.com/supervenca/22.-Food_dist/issues"
+    "url": "https://github.com/supervenca/daily-menu/issues"
   },
-  "homepage": "https://github.com/supervenca/22.-Food_dist#readme",
+  "homepage": "https://github.com/supervenca/daily-menu#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
